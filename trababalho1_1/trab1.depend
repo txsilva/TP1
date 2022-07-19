@@ -1,15 +1,17 @@
 # depslib dependency file v1.0
-1657573823 source:c:\users\samsung\documents\tecnica_prog1\trababalho1_1\main.cpp
+1658242161 source:c:\users\samsung\documents\tecnica_prog1\trababalho1_1\main.cpp
 	<iostream>
 	<string>
 	<list>
 	"dominio.h"
 
-1657573470 c:\users\samsung\documents\tecnica_prog1\trababalho1_1\dominio.h
+1658249407 c:\users\samsung\documents\tecnica_prog1\trababalho1_1\dominio.h
 	<stdexcept>
 
-1657573789 source:c:\users\samsung\documents\tecnica_prog1\trababalho1_1\dominio.cpp
+1658249787 source:c:\users\samsung\documents\tecnica_prog1\trababalho1_1\dominio.cpp
 	<iostream>
+	<list>
 	<string>
+	<stdexcept>
 	"dominio.h"
 
