@@ -5,12 +5,18 @@ using namespace std;
 class Nota{
     private:
         int nota;
+        static const int LIMITEMENOR = 0;
+        static const int LIMITEMAIOR = 10;
         void validar(int);
     public:
         //set e get Nota
-        void setnota(int nota1);
-        int getnota();
+        void setValor(int nota1);
+        int getValor() const;
 };
+//getValor de nota
+inline int Nota::getValor() const{
+    return nota;
+}
 
 class Cidade{
     private:

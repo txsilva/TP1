@@ -6,18 +6,20 @@
 
 using namespace std;
 
-    void Nota::validar(int notinha){
-        if(notinha ==0||notinha ==1||notinha ==2||notinha ==3||notinha ==4||notinha ==5){
-    }else{
-        throw invalid_argument("argumento invalido");
-        }
+    void Nota::validar(int num){
+    try{
+        if(num < LIMITEMENOR || num > LIMITEMAIOR)
+            throw (num);
     }
-    void Nota::setnota(int nota1){
+    catch(int errornum){
+        cout << "Access denied - nota nao esta na lista.\n";
+        cout << "Nota informada: " << errornum << endl;
+        throw std::invalid_argument("tipo de argumento invalido em Nota ");
+    }
+}
+    void Nota::setValor(int nota1){
         validar(nota1);
         nota = nota1;
-    }
-    int Nota::getnota(){
-        return nota;
     }
 
     //cidade
