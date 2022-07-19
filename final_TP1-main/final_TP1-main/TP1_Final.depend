@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1657772294 source:/media/mateus/One Touch/TP1/TP1_Final/main.cpp
+	<iostream>
+	<dominios.h>
+
+1657217743 source:/media/mateus/One Touch/TP1/TP1_Final/src/dominioUsuario.cpp
+	"dominioUsuario.h"
+
+1657217680 /media/mateus/One Touch/TP1/TP1_Final/include/dominioUsuario.h
+	<string>
+
+1657772566 source:/media/mateus/One Touch/TP1/TP1_Final/src/dominios.cpp
+	"dominios.h"
+	<string>
+	<list>
+	<iostream>
+	<cstring>
+
+1657592259 source:/media/mateus/One Touch/TP1/TP1_Final/src/entidades.cpp
+
+1657591936 /media/mateus/One Touch/TP1/TP1_Final/include/dominios.h
+	<string>
+
+1657592259 source:/home/mateus/Downloads/TP1/TP1_Final/src/entidades.cpp
+
+1657829339 source:/home/mateus/Downloads/TP1/TP1_Final/main.cpp
+	<iostream>
+	<dominios.h>
+
+1657839416 /home/mateus/Downloads/TP1/TP1_Final/include/dominios.h
+	<string>
+
+1657839416 source:/home/mateus/Downloads/TP1/TP1_Final/src/dominios.cpp
+	"dominios.h"
+	<string>
+	<list>
+	<iostream>
+	<cstring>
+
+1658187910 source:c:\users\samsung\documents\tecnica_prog1\final_tp1-main\final_tp1-main\main.cpp
+	<iostream>
+	"dominios.h"
+	"entidades.h"
+	"teste.h"
+
+1658188302 c:\users\samsung\documents\tecnica_prog1\final_tp1-main\final_tp1-main\include\dominios.h
+	<string>
+
+1658191557 source:c:\users\samsung\documents\tecnica_prog1\final_tp1-main\final_tp1-main\src\dominios.cpp
+	"dominios.h"
+	<string>
+	<list>
+	<iostream>
+	<cstring>
+
+1658181885 source:c:\users\samsung\documents\tecnica_prog1\final_tp1-main\final_tp1-main\src\entidades.cpp
+	"entidades.h"
+
+1658191847 c:\users\samsung\documents\tecnica_prog1\final_tp1-main\final_tp1-main\include\entidades.h
+	"dominios.h"
+
+1658187853 source:c:\users\samsung\documents\tecnica_prog1\final_tp1-main\final_tp1-main\src\teste.cpp
+	"teste.h"
+
+1658187952 c:\users\samsung\documents\tecnica_prog1\final_tp1-main\final_tp1-main\include\teste.h
+	"dominios.h"
+	"entidades.h"
+
