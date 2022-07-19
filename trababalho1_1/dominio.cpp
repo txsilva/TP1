@@ -6,13 +6,30 @@
 
 using namespace std;
 
+void Nome::validar(string nome0){
+    int tamanho = nome0.length();
+    try{
+        if(tamanho > LIMITE)
+            throw(nome0);
+    }
+    catch(string errornome){
+        cout << "Access denied - nome nao esta dentro do limite.\n";
+        cout << "Nome informada: " << errornome << endl;
+        throw std::invalid_argument("tipo de argumento invalido em Nome ");
+    }
+}
+void Nome::setNome(string nome1){
+    validar(nome1);
+    nome = nome1;
+}
+
     void Nota::validar(int num){
     try{
         if(num < LIMITEMENOR || num > LIMITEMAIOR)
             throw (num);
     }
     catch(int errornum){
-        cout << "Access denied - nota nao esta na lista.\n";
+        cout << "Access denied - nota nao esta na intervalo 0 a 10.\n";
         cout << "Nota informada: " << errornum << endl;
         throw std::invalid_argument("tipo de argumento invalido em Nota ");
     }

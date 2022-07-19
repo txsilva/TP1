@@ -2,6 +2,21 @@
 
 using namespace std;
 
+class Nome {
+    private:
+        string nome;
+        int LIMITE = 30;
+        void validar(string);
+    public:
+        //set e get
+        void setNome(string);
+        string getNome()const;
+};
+//getValor de nome
+inline string Nome::getNome()const{
+    return nome;
+}
+
 class Nota{
     private:
         int nota;
