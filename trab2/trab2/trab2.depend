@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\samsung\documents\tecnica_prog1\trab2\trab2\main.cpp
+	<iostream>
+
+1662237638 source:c:\users\samsung\documents\tecnica_prog1\trab2\trab2\src\dominios.cpp
+	"dominios.h"
+	<string>
+	<list>
+	<iostream>
+	<cstring>
+
+1662237614 c:\users\samsung\documents\tecnica_prog1\trab2\trab2\include\dominios.h
+	<string>
+
+1662237742 source:c:\users\samsung\documents\tecnica_prog1\trab2\trab2\src\entidades.cpp
+
